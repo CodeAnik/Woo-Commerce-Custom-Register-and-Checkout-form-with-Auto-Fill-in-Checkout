@@ -1,0 +1,19 @@
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
