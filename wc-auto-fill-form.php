@@ -2,12 +2,12 @@
 /**
  * Plugin Name: WC Auto Fill Form
  * Description: A custom WooCommerce registration form with auto-fill checkout fields.
- * Version: 1.0.3
+ * Version: 2.0.1
  * Author: Md. Anik Khan
  * License: GPL2
  */
 
-if (!defined('ABSPATH')) {
+ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 
@@ -17,9 +17,6 @@ define('WC_AFF_URL', plugin_dir_url(__FILE__));
 
 // Include main class
 require_once WC_AFF_PATH . 'includes/class-wc-auto-fill-form.php';
-
-// Include form handler
-require_once WC_AFF_PATH . 'includes/form-handler.php';
 
 // Initialize plugin
 function wc_aff_init() {

@@ -44,4 +44,11 @@
     <input type="password" name="confirm_password" placeholder="Confirm your password" required>
 
     <input type="submit" name="wc_aff_register" value="Register">
+
+    <!-- Display messages here -->
+    <?php if (!empty($message)) : ?>
+        <div class="form-message">
+            <?php echo $message; ?>
+        </div>
+    <?php endif; ?>
 </form>
